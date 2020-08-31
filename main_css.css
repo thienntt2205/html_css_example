@@ -2,3 +2,10 @@
     margin: 0 auto;
     max-width: 50em;
 }
+p.font_timenewroman_example {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+p.font_segoeUI_example {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
