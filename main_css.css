@@ -1,7 +1,9 @@
+/*01_Cenering*/
 .center {
     margin: 0 auto;
     max-width: 50em;
 }
+/*02_font_family*/
 p.font_timenewroman_example {
     font-family: "Times New Roman", Times, serif;
   }
@@ -9,3 +11,15 @@ p.font_timenewroman_example {
 p.font_segoeUI_example {
     font-family: 'Segoe UI', Tahoma, sans-serif;
   }
+/*03_spacing*/
+p.spacing_exanple_1 { 
+  word-spacing: normal;
+}
+
+p.spacing_example_2 { 
+  word-spacing: 30px;
+}
+
+p.spacing_example_3 { 
+  word-spacing: 1cm;
+}
