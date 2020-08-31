@@ -23,3 +23,15 @@ p.spacing_example_2 {
 p.spacing_example_3 { 
   word-spacing: 1cm;
 }
+/*04_color$contrast*/
+p.redtext {
+  color: red;
+}
+
+h1.greenheading {
+  color: #00ff00;
+}
+
+p.ex {
+  color: rgb(0,0,255);
+}
