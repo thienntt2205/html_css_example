@@ -45,7 +45,7 @@ a {
 /* 3. Specific */
 
 .wallpaper {
-    background-image: url("../images/wall.jpg");
+    background-image: url("../images/austria.jpg");
     background-position: center;
     background-size: cover;
     opacity: 0.2;
@@ -209,4 +209,14 @@ a {
     transition-property: opacity, transform;
     width: 2rem;
     will-change: opacity, transform;
+}
+
+.social a:hover {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+.social a:active {
+    opacity: 1;
+    transform: scale(1.1);
 }

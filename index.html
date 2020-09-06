@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="css/minireset.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <script defer type="text/javascript" src="js/main.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 </head>
 
 <body>
-    <div class="wallpaper"></div>
+    <div id="wallpaper" class="wallpaper" data-image="images/austria.jpg"></div>
     <div class="content">
         <aside class="side">
-            <figure class="picture">
+            <figure id="picture" class="picture">
                 <div class="picture-shadow"></div>
-                <img id="pictureImage" class="picture-image" src="images/alex.jpg" srcset="images/Alex1.jpg 1x,
+                <img id="pictureImage" class="picture-image" src="images/alex.jpg" srcset="images/alex.jpg 1x,
 images/alex@2x.jpg 2x,
 images/alex@3x.jpg 3x" alt="Portrait of Alex Nguyen" width="320" height="320">
             </figure>
@@ -63,6 +65,16 @@ Get in touch
     </div>
     </main>
     </div>
+    <noscript>
+        <style type="text/css">
+        .wallpaper {
+        animation-name: zoomOut;
+        }
+        .picture {
+        animation-name: dropIn;
+        }
+        </style>
+        </noscript>
 </body>
 
 </html>
